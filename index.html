@@ -14,6 +14,13 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
   <!-- Custom styles for this template -->
   <link href="css/z.css" rel="stylesheet">
 </head>
@@ -21,91 +28,37 @@
 <body>
 
   <!-- Navigation -->
-<!--
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="#">Mambo Zapatos</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Mambo Zapatos</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-            <span class="sr-only">(current)</span>
-          </a>
-          </li>
+        <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#idAbout">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#idHistory">History</a>
+            <a class="nav-link js-scroll-trigger" href="#idHistory">History</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
--->
-  <!--
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <!--
-        <div class="carousel-item active" style="background-image: url('image/header/header1.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
-          </div>
-        </div>
--->
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <!--
-        <div class="carousel-item" style="background-image: url('image/header/header2.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
-          </div>
-        </div>
--->
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <!--
-        <div class="carousel-item" style="background-image: url('image/header/header3.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
-          </div>
-        </div>
+      
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Welcome To Mambo Zapatos!</div>
+        <div class="intro-heading text-uppercase">it's mambo time!</div>
+        <!-- 
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        -->
       </div>
-    -->
-<!--
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
     </div>
   </header>
--->
-<!--
-  <section id="idAbout" class="py-5">
-    <div class="container">
-      <h1>맘보자파토스란?</h1>
-      <p>맘보는 살사(On2), 그리고 자파토스(Zapatos)는 스페인어로 ‘신발'이라는 뜻을 가지고 있습니다.
-        즉, 맘보자파토스는 맘보 풋웍(스텝)을 기반으로 하는 트레이닝팀으로 2015년 3월에 만들어졌습니다.
-      </p>
-    </div>
-  </section>
--->
+
   <!-- History -->
   <section id="idHistory" class="text-white py-5">
     <div class="container">
@@ -251,7 +204,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Mambo Zapatos 2018</p>
     </div>
