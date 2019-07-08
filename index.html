@@ -84,6 +84,20 @@
       <div class="row">
         <div class="col-lg-12">
           <ul class="timeline">
+            <li>
+              <div class="timeline-image" alt="" data-toggle="modal" href="#mamzaModal10">
+                <img class="rounded-circle img-fluid" src="image/history/h-mamza-10.jpg">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>June 2019</h4>
+                  <h4 class="subheading">Mambo Zapatos</h4>
+                </div>
+                <div class="timeline-body">
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mamzaModal10">Movie</button>
+                </div>
+              </div>
+            </li>
             <li class="timeline-inverted">
               <div class="timeline-image" data-toggle="modal" href="#mamzaModal9">
                 <img class="rounded-circle img-fluid" src="image/history/h-mamza-9.jpg" alt="">
@@ -235,6 +249,30 @@
   </footer>
 
     <!-- Modal Page -->
+    <div class="modal fade" id="mamzaModal10" role="dialog" aria-hidden="true" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">공연 영상</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body" style="text-align:center">
+            <p> 2019 강남살사여름파티 맘보자파토스 @Mambo Bar 2019. 06. 30</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/QNxl0Hfg5r0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+           </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="modal fade" id="mamzaModal9" role="dialog" aria-hidden="true" tabindex="-1">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -590,6 +628,12 @@
       // do something...
       $('#mamzaModal9 iframe').attr("src", $("#mamzaModal9 iframe").attr("src"));
     });
+
+    $('#mamzaModal10').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal10 iframe').attr("src", $("#mamzaModal10 iframe").attr("src"));
+    });
+
   </script>
 </body>
 
