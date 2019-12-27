@@ -85,6 +85,21 @@
         <div class="col-lg-12">
           <ul class="timeline">
             
+            <li>
+              <div class="timeline-image" alt="" data-toggle="modal" href="#mamzaModal12">
+                <img class="rounded-circle img-fluid" src="image/history/h-mamza-12.jpg">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>December 2019</h4>
+                  <h4 class="subheading">Mambo Zapatos</h4>
+                </div>
+                <div class="timeline-body">
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mamzaModal12">Movie</button>
+                </div>
+              </div>
+            </li>
+
             <li class="timeline-inverted">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="image/history/h-mamza-11.jpg" alt="">
@@ -99,8 +114,7 @@
                 </div>
               </div>
             </li>
-
-
+            
             <li>
               <div class="timeline-image" alt="" data-toggle="modal" href="#mamzaModal10">
                 <img class="rounded-circle img-fluid" src="image/history/h-mamza-10.jpg">
@@ -115,6 +129,7 @@
                 </div>
               </div>
             </li>
+            
             <li class="timeline-inverted">
               <div class="timeline-image" data-toggle="modal" href="#mamzaModal9">
                 <img class="rounded-circle img-fluid" src="image/history/h-mamza-9.jpg" alt="">
@@ -264,6 +279,30 @@
       <p class="m-0 text-center text-white">Copyright &copy; Mambo Zapatos 2018</p>
     </div>
   </footer>
+      <!-- Modal Page -->
+      <div class="modal fade" id="mamzaModal12" role="dialog" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">공연 영상</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body" style="text-align:center">
+              <p> 강남살사클럽 end of year party 맘보자파토스 (19.12.21 클럽맘보)</p>
+              <p>
+                <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/jpadB_pVSO8"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+              </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Modal Page -->
     <div class="modal fade" id="mamzaModal11" role="dialog" aria-hidden="true" tabindex="-1">
@@ -284,6 +323,11 @@
             <p> Mambo Zapatos Korea Latin Carnival 1st 1 day 맘보 자파토스 살사 공연 라틴카니발 (2019.11.08 @라살사)</p>
             <p>
               <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/L_UOLIxMs8s"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+            <p> Mambo Zapatos 맘보 자파토스 강턴공연 2019.11.23 </p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/lDHnVBmBo1s"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
             </p>
           </div>
@@ -701,6 +745,12 @@
       // do something...
       $('#mamzaModal11 iframe').attr("src", $("#mamzaModal11 iframe").attr("src"));
     });
+
+    $('#mamzaModal12').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal12 iframe').attr("src", $("#mamzaModal12 iframe").attr("src"));
+    });
+
   </script>
 </body>
 
