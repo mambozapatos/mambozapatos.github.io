@@ -14,111 +14,136 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!--  open Graph 태그 : 링크의 미리보기 제목, 설명, 이미지를 지정하는 태크   -->
+  <meta property="og:title" content="Mambo Zapatos" />
+  <meta property="og:url" content="http://mambozapatos.github.io" />
+  <meta property="og:image" content="image/mamza_logo.jpg" />
+  <meta property="og:description" content="맘보 자파토스" />
+  <meta property="keyword" content="맘보, 자파토스, 맘보 자파토스, 맘보자파토스, mamabo, zapatos, mamabo zapatos, salsa, korea, 살사, 서울, 강남" />
+
+
   <!-- Custom styles for this template -->
   <link href="css/z.css" rel="stylesheet">
 </head>
 
 <body>
-
   <!-- Navigation -->
-<!--
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="#">Mambo Zapatos</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Mambo Zapatos</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-            <span class="sr-only">(current)</span>
-          </a>
-          </li>
+        <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#idAbout">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#idHistory">History</a>
+            <a class="nav-link js-scroll-trigger" href="#idHistory">History</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
--->
-  <!--
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
 
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <!--
-        <div class="carousel-item active" style="background-image: url('image/header/header1.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
-          </div>
-        </div>
--->
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <!--
-        <div class="carousel-item" style="background-image: url('image/header/header2.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
-          </div>
-        </div>
--->
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <!--
-        <div class="carousel-item" style="background-image: url('image/header/header3.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
-          </div>
-        </div>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Welcome To Mambo Zapatos!</div>
+        <div class="intro-heading text-uppercase">it's mambo time!</div>
+        <!-- 
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        -->
       </div>
-    -->
-<!--
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
     </div>
   </header>
--->
-<!--
-  <section id="idAbout" class="py-5">
-    <div class="container">
-      <h1>맘보자파토스란?</h1>
-      <p>맘보는 살사(On2), 그리고 자파토스(Zapatos)는 스페인어로 ‘신발'이라는 뜻을 가지고 있습니다.
-        즉, 맘보자파토스는 맘보 풋웍(스텝)을 기반으로 하는 트레이닝팀으로 2015년 3월에 만들어졌습니다.
-      </p>
-    </div>
+
+  <section class="py-5 bg-image-full" style="background-image: url('image/log_top.jpeg');">
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+    <div style="height:400px;"></div>
   </section>
--->
+
   <!-- History -->
-  <section id="idHistory" class="bg-dark text-white py-5">
+  <section id="idHistory" class="text-white py-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Mambo Zapatos Korea</h2>
-          <h3 class="section-subheading text-muted">"History"</h3>
+          <h2 class="section-heading text-uppercase">History</h2>
+          <h3 class="section-subheading text-muted">"In Korea"</h3>
           <p></p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
           <ul class="timeline">
+            
+            <li>
+              <div class="timeline-image" alt="" data-toggle="modal" href="#mamzaModal12">
+                <img class="rounded-circle img-fluid" src="image/history/h-mamza-12.jpg">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>December 2019</h4>
+                  <h4 class="subheading">Mambo Zapatos</h4>
+                </div>
+                <div class="timeline-body">
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mamzaModal12">Movie</button>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="image/history/h-mamza-11.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>October 2019</h4>
+                  <h4 class="subheading">Mambo Zapatos</h4>
+                </div>
+                <div class="timeline-body">
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mamzaModal11">Movie</button>
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="timeline-image" alt="" data-toggle="modal" href="#mamzaModal10">
+                <img class="rounded-circle img-fluid" src="image/history/h-mamza-10.jpg">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>June 2019</h4>
+                  <h4 class="subheading">Mambo Zapatos</h4>
+                </div>
+                <div class="timeline-body">
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mamzaModal10">Movie</button>
+                </div>
+              </div>
+            </li>
+            
+            <li class="timeline-inverted">
+              <div class="timeline-image" data-toggle="modal" href="#mamzaModal9">
+                <img class="rounded-circle img-fluid" src="image/history/h-mamza-9.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>December 2018</h4>
+                  <h4 class="subheading">Mamabo Zapatos</h4>
+                </div>
+                <div class="timeline-body">
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mamzaModal9">Movie</button>
+                </div>
+              </div>
+            </li>
             <li>
               <div class="timeline-image" alt="" data-toggle="modal" href="#mamzaModal8">
                 <img class="rounded-circle img-fluid" src="image/history/h-mamza-8.jpg">
@@ -162,7 +187,6 @@
                 </div>
               </div>
             </li>
-
             <li class="timeline-inverted">
               <div class="timeline-image" data-toggle="modal" href="#mamzaModal5">
                 <img class="rounded-circle img-fluid" src="image/history/h-mamza-5.jpg" alt="">
@@ -193,7 +217,6 @@
                 </div>
               </div>
             </li>
-
             <li class="timeline-inverted">
               <div class="timeline-image" data-toggle="modal" href="#mamzaModal3">
                 <img class="rounded-circle img-fluid" src="image/history/h-mamza-3.jpg" alt="">
@@ -251,13 +274,147 @@
   </section>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Mambo Zapatos 2018</p>
     </div>
   </footer>
+      <!-- Modal Page -->
+      <div class="modal fade" id="mamzaModal12" role="dialog" aria-hidden="true" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">공연 영상</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body" style="text-align:center">
+              <p> 강남살사클럽 end of year party 맘보자파토스 (19.12.21 클럽맘보)</p>
+              <p>
+                <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/jpadB_pVSO8"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+              </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <!-- Modal 1 -->
+    <!-- Modal Page -->
+    <div class="modal fade" id="mamzaModal11" role="dialog" aria-hidden="true" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">공연 영상</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body" style="text-align:center">
+            <p> 2019 강남살사클럽 할로윈파티 맘보자파토스 (2019.10.26 클럽맘보)</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/ppzDxvKZMfo"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+            <p> Mambo Zapatos Korea Latin Carnival 1st 1 day 맘보 자파토스 살사 공연 라틴카니발 (2019.11.08 @라살사)</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/L_UOLIxMs8s"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+            <p> Mambo Zapatos 맘보 자파토스 강턴공연 2019.11.23 </p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/lDHnVBmBo1s"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Page -->
+    <div class="modal fade" id="mamzaModal10" role="dialog" aria-hidden="true" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">공연 영상</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body" style="text-align:center">
+            <p> 2019 강남살사여름파티 맘보자파토스 @Mambo Bar 2019. 06. 30</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/QNxl0Hfg5r0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+
+            <p> 강남 나오미 축하공연 @Naomi Bar 2019. 07. 05</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/RILgSfxsg7Y"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+            <p> 강남 나오미 축하공연 @Lasalsa 2019. 07. 26</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/54FxDuJkM5A"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+            <p> We Dance Festival @여의도 한강공원 2019. 09. 21</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/B017JN-7GqM"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+           </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mamzaModal9" role="dialog" aria-hidden="true" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">공연 영상</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body" style="text-align:center">
+            <p> 강남살사클럽연말파티 맘보자파토스 @Mambo Bar 2018. 12. 22</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/BNQ_PELxsDs" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+            <p> 맘보신년파티 맘보자파토스 @Mambo Bar 2019. 01. 05</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/XEhBnyGSiBE" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+            <p> 맘보신년파티 맘보자파토스 @Gangnam Turn Bar 2019. 02. 03</p>
+            <p>
+              <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/YpMQDO0kwW8" 
+                rameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            </p>
+
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   <div class="modal fade" id="mamzaModal8" role="dialog" aria-hidden="true" tabindex="-1">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -270,7 +427,18 @@
         <div class="modal-body" style="text-align:center">
           <p> 강남살사클럽 여름 파티 @Mambo Bar 2018.06.30</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/4qBq0H634nY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/4qBq0H634nY" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </p>
+          <p> 나오미 축하공연 @Naomi 2018.07.13</p>
+          <p>
+            <div class="embed-youtube"> <iframe width="560" height="315" src="https://www.youtube.com/embed/ILimHiXv0UE" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </p>
+          <p> 2018 JEJU Latin Culture Festival @Jeju 2018.07.20</p>
+          <p>
+            <div class="embed-youtube"> <iframe width="560" height="315" src="https://www.youtube.com/embed/7Y-YGgki53s" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
         </div>
         <!-- Modal footer -->
@@ -293,15 +461,18 @@
         <div class="modal-body" style="text-align:center">
           <p> 강남살사클럽 연말 파티 @Mambo Bar 2017.12.23</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/4Rl_p2L2fas" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/4Rl_p2L2fas" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>나오미 연말 파티 @Naomi Bar 2017.12.31</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/m2JD-y1QyrY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/m2JD-y1QyrY" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>강남턴바 축하공연 @Gangnam Turn Bar 2018.01.07</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/ESBs9QYv9BM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/ESBs9QYv9BM" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
         </div>
         <!-- Modal footer -->
@@ -324,19 +495,23 @@
         <div class="modal-body" style="text-align:center">
           <p>강남살사클럽 썸머 파티 @Naomi Bar 2017.07.01</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/22YOUOZROCE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/22YOUOZROCE" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>Naomi holiday night party @Naomi 2017.08.14</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/rzK1T1ED-Ww" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/rzK1T1ED-Ww" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>IOD Seoul Salsa Festibal 2017 @SAC아트홀 2017.07.29</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/N4OdfiOFAMA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/N4OdfiOFAMA" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>강남턴바 축하공연 @Gangnam Turn Bar 2017.07.23</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/M8BxX6N0-v4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/M8BxX6N0-v4" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
         </div>
         <!-- Modal footer -->
@@ -359,15 +534,18 @@
         <div class="modal-body" style="text-align:center">
           <p>강남살사클럽 연말 파티 @Mambo Bar 2016.12.17</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/MMKm7z-FDTk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/MMKm7z-FDTk" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>Korea Social Festival(KSF) 축하 공연 @국민대학교 공연장 2017.01.08</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ko-P3YNz0WI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ko-P3YNz0WI" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p> Naomi Happy New Year Party @Naomi 2017.01.29</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/Gg6eVPyZubs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/Gg6eVPyZubs" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
         </div>
         <!-- Modal footer -->
@@ -390,11 +568,13 @@
         <div class="modal-body" style="text-align:center">
           <p>강남살사클럽 3주년&연말파티 @Mambo Bar 2015.12.19</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/XjpncKB3wts" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/XjpncKB3wts" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>Naomi Night Party @Naomi 2015.12.24</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/HPeKoUUFtRg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/HPeKoUUFtRg" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
         </div>
         <!-- Modal footer -->
@@ -417,19 +597,23 @@
         <div class="modal-body" style="text-align:center">
           <p>강남살사 클럽 축하공연 @Mambo 2015.09.12</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/1U_128mBah8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/1U_128mBah8" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>턴 축하공연 @Gangnam Turn 2015.11.13</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/nDt2-yGPr88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/nDt2-yGPr88" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>5th Korea Latin Dance Cup @영등포아트홀 2015.11.01</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/QMHQ7y9O68k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/QMHQ7y9O68k" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>강남살사클럽 미니파티 @Mambo Bar 2015.10.03</p>
           <p>
-            <div class=" embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/qBIpN431AKE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class=" embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/qBIpN431AKE"
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
         </div>
         <!-- Modal footer -->
@@ -452,15 +636,18 @@
         <div class="modal-body" style="text-align:center">
           <p>강남살사클럽 2주년 & 연말 파티 @방배 누리시아 2014.12.27</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/0l6esLJS4xI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/0l6esLJS4xI" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>클럽맘보 신년파티 @Mambo Bar 2015.01.03</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/p9vRelg2zkQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/p9vRelg2zkQ" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
           <p>나오미 공연 @Naomi 2015.01.16</p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/KaNHYNxJ2Uw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/KaNHYNxJ2Uw" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
         </div>
         <!-- Modal footer -->
@@ -483,7 +670,8 @@
         <div class="modal-body" style="text-align:center">
           <p>강남살사클럽 여름 파티 @Mambo 2014.08.23 </p>
           <p>
-            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/BZUXjVVnkf0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/BZUXjVVnkf0" 
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
           </p>
         </div>
         <!-- Modal footer -->
@@ -501,6 +689,69 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+  <script>
+
+    $('#mamzaModal1').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal1 iframe').attr("src", $("#mamzaModal1 iframe").attr("src"));
+    });
+
+    $('#mamzaModal2').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal2 iframe').attr("src", $("#mamzaModal2 iframe").attr("src"));
+    });
+
+    $('#mamzaModal3').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal3 iframe').attr("src", $("#mamzaModal3 iframe").attr("src"));
+    });
+
+    $('#mamzaModal4').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal4 iframe').attr("src", $("#mamzaModal4 iframe").attr("src"));
+    });
+
+    $('#mamzaModal5').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal5 iframe').attr("src", $("#mamzaModal5 iframe").attr("src"));
+    });
+
+    $('#mamzaModal6').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal6 iframe').attr("src", $("#mamzaModal6 iframe").attr("src"));
+    });
+
+    $('#mamzaModal7').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal7 iframe').attr("src", $("#mamzaModal7 iframe").attr("src"));
+    });
+
+    $('#mamzaModal8').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal8 iframe').attr("src", $("#mamzaModal8 iframe").attr("src"));
+    });
+
+    $('#mamzaModal9').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal9 iframe').attr("src", $("#mamzaModal9 iframe").attr("src"));
+    });
+
+    $('#mamzaModal10').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal10 iframe').attr("src", $("#mamzaModal10 iframe").attr("src"));
+    });
+  
+    $('#mamzaModal11').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal11 iframe').attr("src", $("#mamzaModal11 iframe").attr("src"));
+    });
+
+    $('#mamzaModal12').on('hidden.bs.modal', function (e) {
+      // do something...
+      $('#mamzaModal12 iframe').attr("src", $("#mamzaModal12 iframe").attr("src"));
+    });
+
+  </script>
 </body>
 
 </html>
